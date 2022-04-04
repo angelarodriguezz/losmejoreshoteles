@@ -1,0 +1,114 @@
+<html>
+
+<head>
+
+<title> Inicio</title>
+
+<link href="hojadeestilos.css" rel="stylesheet" type="text/css">
+
+<Script Language="JavaScript">
+
+	function DameLaFechaHora() {
+
+	var hora = new Date()
+
+	var hrs = hora.getHours();
+
+	var min = hora.getMinutes();
+
+	var hoy = new Date();
+
+	var m = new Array();
+
+	var d = new Array()
+
+	var an= hoy.getYear();
+
+
+	m[0]="Enero"; m[1]="Febrero"; m[2]="Marzo";
+
+	m[3]="Abril"; m[4]="Mayo"; m[5]="Junio";
+
+	m[6]="Julio";	m[7]="Agosto"; m[8]="Septiembre";
+
+	m[9]="Octubre"; m[10]="Noviembre"; m[11]="Diciembre";
+
+
+	if (min<10){
+
+	document.write("Son las "+hrs+":0"+min+" (");
+
+	document.write(hoy.getDate());
+
+	document.write(" de ");
+
+	document.write(m[hoy.getMonth()]);
+
+	document.write(")");
+
+	}
+
+
+	else{
+
+	document.write("Son las "+hrs+":"+min+" (");
+
+	document.write(hoy.getDate());
+
+	document.write(" de ");
+
+	document.write(m[hoy.getMonth()]);
+
+	document.write(")");
+
+	}
+
+	}
+
+
+</Script>
+
+
+</head>
+
+<body>
+
+<img src="baner.jpg" width="1325" height="300">
+<a href="contacto.html" class="enlaces"> Contacta con nosotros </a>
+<a href="hoteles.html" class="enlaces"> Hoteles </a>
+<a href="destinos.html" class="enlaces"> Viajes </a>
+<a href="index.html" class="enlaces"> Inicio </a>
+
+<br><br><br><br><br><br><br>
+
+<center><font color="grey"><b><font size=5><H2>El lugar ideal para acesorar tus viajes</H2></font></b></font>
+
+Te presentamos la solución a tus problemas. Gracias a nuestra agencia de viajes puedes desplazarte por todo el mundo al menor coste posible. <br>
+Podrás viajar al lugar de tus sueños sin tener que preocuparte por tener el dinero suficiente para ello. No te lo pienses más, deja de dudar <br>
+si esto que lees es verdad o es una simple estafa. Te dejamos en esta página todo lo que necesitas saber para que contactes con nosotros y <br> 
+podamos personalizar tu viaje y ofrecerte en un abrir y cerrar de ojos lo que estabas buscando.
+<br>
+Para conseguir las mejores ofertas de viajes, ¡regístrate ya!
+<br><br><br><br>
+
+<p>Email<input type="text" name="nombre"> </p>
+<input type="checkbox" name="casilla" checked="3"> <U style = "color: red">	Acepto la Política de Privacidad del sitio</U> <br>
+<br>									  								   
+ </p>
+
+<br><br>
+
+
+<img src="mundoexplora.jpg" width="700" height="1200">
+
+<h2>
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+
+</center>
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<html>
+
+<head>
+
+<title>Hoteles</title>
+
+<link href="hojadeestilos.css" rel="stylesheet" type="text/css">
+
+<Script Language="JavaScript">
+
+	function DameLaFechaHora() {
+	
+	var hora = new Date()
+	
+	var hrs = hora.getHours();
+	
+	var min = hora.getMinutes();
+
+	var hoy = new Date();
+
+	var m = new Array();
+
+	var d = new Array()
+
+	var an= hoy.getYear();
+
+
+	m[0]="Enero"; m[1]="Febrero"; m[2]="Marzo";
+
+	m[3]="Abril"; m[4]="Mayo"; m[5]="Junio";
+
+	m[6]="Julio";	m[7]="Agosto"; m[8]="Septiembre";
+
+	m[9]="Octubre"; m[10]="Noviembre"; m[11]="Diciembre";
+
+
+	if (min<10){
+
+	document.write("Son las "+hrs+":0"+min+" (");
+
+	document.write(hoy.getDate());
+
+	document.write(" de ");
+
+	document.write(m[hoy.getMonth()]);
+
+	document.write(")");
+
+	}
+
+
+	else{
+
+	document.write("Son las "+hrs+":"+min+" (");
+
+	document.write(hoy.getDate());
+
+	document.write(" de ");
+
+	document.write(m[hoy.getMonth()]);
+
+	document.write(")");
+
+	}
+
+	}
+
+
+</Script>
+
+
+</head>
+
+<body>
+
+<img src="baner.jpg" width="1325" height="300">
+<a href="contacto.html" class="enlaces"> Contacta con nosotros </a>
+<a href="hoteles.html" class="enlaces"> Hoteles </a>
+<a href="destinos.html" class="enlaces"> Viajes </a>
+<a href="index.html" class="enlaces"> Inicio </a>
+
+<br><br><br><br><br><br><br><br><br>
+<center>
+<h3>
+A continuación le presentamos una selección de los hoteles mejor valorados que pueden estar fácilmente a su disposición. <br>
+Estas maravillas de hoteles son solo algunos de las muchos más que puedes encontrar en nuestra agencia. </h3>
+<br><br><br>
+
+
+
+<h1>Citizen M Paris Champs-Élysées</h1>
+El citizenM Paris Champs-Élysées se encuentra en el distrito de París, a menos de 1 km del Arco del Triunfo, a 18 minutos a pie del Museo de la Orangerie <br>
+y a 1,6 km de la Torre Eiffel. Cuenta con restaurante, recepción 24 horas, salón compartido y WiFi gratuita en todas las instalaciones. Las habitaciones <br>
+disponen de aire acondicionado, escritorio, caja fuerte, TV de pantalla plana y baño privado con ducha. El establecimiento sirve un desayuno buffet o vegetariano.
+</center>
+
+<br><br>
+<img src="paris1.jpg" class="foto1" width="225" height="225">
+<img src="paris2.jpg" class="foto2" width="225" height="225">
+<img src="paris3.jpg" class="foto3" width="225" height="225">
+<img src="paris4.jpg" class="foto4" width="225" height="225">
+<img src="paris5.jpg" class="foto5" width="225" height="225">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+<br>
+
+<center>
+<h1>Central London Suites - Fitzrovia </h1>
+Ofrece alojamiento con vistas a la ciudad, a poca distancia del teatro Dominion, del Museo Británico y de Oxford Street.Los alojamientos disponen de <br>
+cocina con microondas y nevera, TV de pantalla plana vía satélite, utensilios de planchado, escritorio y zona de estar con sofá. El baño es privado e incluye <br>
+ducha, secador de pelo y artículos de aseo gratuitos. Cerca del apartamento hay varios lugares de interés, como Carnaby Street, el teatro <br>
+Prince Edward y el Queen's Theatre. El aeropuerto más cercano es el de London City, ubicado a 13 km del Central London Suites - Fitzrovia.
+
+<br><br><br><br>
+
+<img src="londres1.jpg" class="foto6" width="225" height="225">
+<img src="londres2.jpg" class="foto7" width="225" height="225">
+<img src="londres3.jpg" class="foto8" width="225" height="225">
+<img src="londres4.jpg" class="foto9" width="225" height="225">
+</center>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+<br>
+
+<center>
+<h1>Otivm Hotel</h1>
+El Otivm Hotel está ubicado en Roma, a poca distancia a pie del Palazzo Venezia. Se halla a 500 metros de la sinagoga de Roma. <br>
+El aeropuerto de Roma-Ciampino queda a 20 km. Ofrece servicio de conserjería, recepción 24 horas y WiFi gratuita en todas las zonas. También tiene terraza. 
+
+<br><br><br><br>
+
+<img src="roma1.jpg" class="foto1" width="225" height="225">
+<img src="roma2.jpg" class="foto2" width="225" height="225">
+<img src="roma3.jpg" class="foto3" width="225" height="225">
+<img src="roma4.webp" class="foto4" width="225" height="225">
+<img src="roma5.webp" class="foto5" width="225" height="225">
+</center>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+<br>
+
+<center><H3>Ahora podemos ver los precios por noche de cada uno de los hoteles presentados anteriormente</H3></center>
+<center>
+<table border="5" width="600" height="200">
+<tr><td ALIGN="center" bgcolor="grey">Hotel</td><td ALIGN="center" bgcolor="grey">Precio</td></tr>
+<tr><td ALIGN="center" >Citizen M Paris Champs-Élysées</td><td ALIGN="center" >123</td></tr>
+<tr><td ALIGN="center" >Central London Suites - Fitzrovia</td><td ALIGN="center" >160</td></tr>
+<tr><td ALIGN="center" >Otivm Hotel</td><td ALIGN="center" >134</td></tr>
+
+<tr><td ALIGN="center" bgcolor="yellow" colspan="4"> <b style= "color: white">¡Recuerda que si te registras tendrás descuentos y otras muchas sopresas más!</td></tr>
+
+
+</table>
+</center>
+<center>
+<h2>
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+
+</body>
+</html>

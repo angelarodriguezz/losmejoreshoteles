@@ -1,0 +1,163 @@
+<html>
+
+<head>
+
+<title>Destinos</title>
+
+<link href="hojadeestilos.css" rel="stylesheet" type="text/css">
+
+<Script Language="JavaScript">
+
+	function DameLaFechaHora() {
+
+	var hora = new Date()
+
+	var hrs = hora.getHours();
+
+	var min = hora.getMinutes();
+
+	var hoy = new Date();
+
+	var m = new Array();
+
+	var d = new Array()
+
+	var an= hoy.getYear();
+
+	m[0]="Enero"; m[1]="Febrero"; m[2]="Marzo";
+
+	m[3]="Abril"; m[4]="Mayo"; m[5]="Junio";
+
+	m[6]="Julio";	m[7]="Agosto"; m[8]="Septiembre";
+
+	m[9]="Octubre"; m[10]="Noviembre"; m[11]="Diciembre";
+
+
+	if (min<10){
+
+	document.write("Son las "+hrs+":0"+min+" (");
+
+	document.write(hoy.getDate());
+
+	document.write(" de ");
+
+	document.write(m[hoy.getMonth()]);
+
+	document.write(")");
+
+	}
+
+
+	else{
+
+	document.write("Son las "+hrs+":"+min+" (");
+
+	document.write(hoy.getDate());
+
+	document.write(" de ");
+
+	document.write(m[hoy.getMonth()]);
+
+	document.write(")");
+
+	}
+
+	}
+
+
+</Script>
+
+</head>
+
+<body>
+
+<img src="baner.jpg" width="1325" height="300">
+<a href="contacto.html" class="enlaces"> Contacta con nosotros </a>
+<a href="hoteles.html" class="enlaces"> Hoteles </a>
+<a href="destinos.html" class="enlaces"> Viajes </a>
+<a href="index.html" class="enlaces"> Inicio </a>
+
+<br><br><br><br><br><br><br><br>
+
+<center>
+<h2> Aquí te mostramos algunos destinos entre los cientos de ellos a los que puedes acceder a <br>
+través de nosotros. Estos son los favoritos de nuestros clientes. </h2>
+</center>
+
+<div class="grupo">
+
+<div class="destino1">
+<h2>SANTORINI</h2>
+Un viaje a Santorini es el sueño de todo aquel que haya visto una postal <br>
+su famosa caldera, pero la isla es mucho más que lo que cualquier foto logra <br>
+mostrar. Los días en Santorini pasan a un ritmo distinto, y las horas ahí  <br>
+enriquecen con la tranquilidad de sus calles y los magníficos atardeceres.<br><br><br>
+<img src="santorini.jpg"width="500" height="400">
+</div>
+
+<div class="destino2">
+<h2>PARÍS</h2>
+No puedes quedarte sin conocer la ciudad del amor. Cada año, millones de <br>
+turistas deciden visitar París atraídos por sus increíbles monumentos, sus <br>
+calles de época y sus grandes bulevares. Un ambiente lleno de romanticismo <br>
+y lujo.  La Torre Eiffel, los Campos Elíseos o el Arco del Triunfo son esos <br>
+imprescindibles de París que nadie se cansa de ver, pero hay mucho más.<br>
+En definitiva, no hay quien se resista a esta ciudad.<br><br><br>
+<img src="paris.jpg"width="400" height="450">
+</div>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+<br><br>
+
+<div class="destino1">
+<h2>LONDRES</h2>
+Está lleno de arte. Se encuentran las mejores galerías y museos del mundo. <br>
+También es el hogar de los castillos más famosos. Debes conocer la Tate Modern, <br>
+el Big Ben o el London Eye, desde este último podrás observar la ciudad desde las <br>
+alturas. Londres es el lugar ideal para los que aman ir de compras. La oferta es <br> 
+gigante. Desde las marcas más famosas hasta pequeños mercadillos. Oxford Street <br>
+es una de las mejores zonas para esta actividad.<br><br><br>
+<img src="londres.jpg"width="500" height="500">
+</div>
+
+<div class="destino2">
+<h2>ROMA</h2>
+Es una de las ciudades más interesantes y culturalmente más ricas de Europa, <br>
+así que nadie puede dejar de conocerla, apreciarla y disfrutarla. Roma es como <br>
+un museo al aire libre con monumentos de más de 2.000 años, fuentes barrocas <br>
+de increíble belleza, cientos de antiguas iglesias, barrios llenos de encanto, <br>
+museos con colecciones únicas y sobre todo, restaurantes tradicionales en los <br>
+que probar una de las mejores gastronomías del mundo. <br><br><br>
+<img src="roma.jpg"width="520" height="500">
+</div>
+
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+<br>
+
+<center>
+<h2>ORLANDO</h2>
+Te puedo asegurar que en este destino no te aburrirás, pues la ciudad ofrece actividades para todos los <br>
+gustos y edades.Los lugares más visitados son los parques temáticos pues sacan el niño que llevas dentro <br>
+y te acercan a un mundo mágico, donde hay que venir al menos una vez en la vida. <br> <br> <br>
+<img src="orlando.jpg"width="650" height="400">	
+
+<br><br><br><br>
+
+<h2>
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+
+</body>
+</html>

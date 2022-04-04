@@ -1,0 +1,153 @@
+<html>
+
+<head>
+<title> Contacto</title>
+<link href="hojadeestilos.css" rel="stylesheet" type="text/css">
+<Script Language="JavaScript">
+
+	function DameLaFechaHora() {
+	
+	var hora = new Date()
+	
+	var hrs = hora.getHours();
+	
+	var min = hora.getMinutes();
+	
+	var hoy = new Date();
+	
+	var m = new Array();
+	
+	var d = new Array()
+	
+	var an= hoy.getYear();
+
+	m[0]="Enero"; m[1]="Febrero"; m[2]="Marzo";
+	
+	m[3]="Abril"; m[4]="Mayo"; m[5]="Junio";
+	
+	m[6]="Julio";	m[7]="Agosto"; m[8]="Septiembre";
+	
+	m[9]="Octubre"; m[10]="Noviembre"; m[11]="Diciembre";
+
+	if (min<10){
+	
+	document.write("Son las "+hrs+":0"+min+" (");
+	
+	document.write(hoy.getDate());
+	
+	document.write(" de ");
+	
+	document.write(m[hoy.getMonth()]);
+	
+	document.write(")");
+	
+	}
+
+	else{
+	
+	document.write("Son las "+hrs+":"+min+" (");
+	
+	document.write(hoy.getDate());
+	
+	document.write(" de ");
+	
+	document.write(m[hoy.getMonth()]);
+	
+	document.write(")");
+	}
+	}
+	
+</Script>
+
+</head>
+<body>
+
+<img src="baner.jpg" width="1325" height="300">
+<a href="contacto.html" class="enlaces"> Contacta con nosotros </a>
+<a href="hoteles.html" class="enlaces"> Hoteles </a>
+<a href="destinos.html" class="enlaces"> Viajes </a>
+<a href="index.html" class="enlaces"> Inicio </a>
+
+<br><br><br><br><br><br>
+
+<center>
+<h2> Contacta con nosotros rellenando este formulario con las características <br>
+que desea para su destino y así podamos ayudarte a encontrar tu viaje ideal</h2>
+</center>
+
+<form>
+
+ <fieldset>
+<legend>Cualidades que desea</legend> 
+	 <BR>
+
+<p> Sobre el lugar de estancia
+<br>
+<br>
+<input type="checkbox" name="casilla" checked="1"> Piscina <br>
+<input type="checkbox" name="casilla" checked="2"> Cerca de la playa <br>
+<input type="checkbox" name="casilla" checked="3"> Admisión de mascotas <br>								   								   
+</p>		 
+
+<p> Motivo del viaje
+<br>
+<br>
+<input type="radio" name="texto" value="1"> Vacaciones familiares<br>
+<input type="radio" name="texto" value="2"> Viaje de pareja <br>
+<input type="radio" name="texto" value="3"> Trabajo <br>	
+<input type="radio" name="texto" value="4"> Otros <br>								  								   
+ </p>
+
+</fieldset>
+	 
+	 
+ <fieldset>
+<legend>Datos personales</legend> 
+<p>Nombre<input type="text" name="nombre"> </p>
+<p>Fecha estimada del viaje. Si existen distintas posibilidades, indíquelas<input type="text" name="nombre"> </p>
+<p>Número de personas. Especifique si viajan menores indicando sus edades<input type="text" name="nombre"> </p>
+<p>Dirección<input type="text" name="nombre"> </p>
+<p>Teléfono<input type="text" name="nombre"> </p>
+<p>Observaciones a tener en cuenta. Cuéntamos cómo sería tu viaje perfceto:</p> 
+	 <textarea name="texto" rows="10" cols="110"></textarea>		 
+ </fieldset>
+ 
+
+ <fieldset>
+<legend>Método de pago</legend> 
+ </fieldset>
+																	
+																	
+<input type="reset" value="Ok">  			
+
+</form>
+
+<center>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12666.145852792413!2d-5.656322202774753!3d37.47166502836669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd128d0f4009279f%3A0xa9d4e03180067910!2sServilia%20Tour!5e0!3m2!1ses!2ses!4v1647591579013!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<BR> <BR> <BR>
+
+
+<h2> No olvides que también puedes enviarnos un correo a mundoexplora@gmail.com </h2>
+
+<BR>
+
+<h2>Déjanos un comentario para poder mejorar nuestros servicios</h2> 
+	 <textarea name="texto" rows="10" cols="110"></textarea>		 
+ 
+ <BR> <BR>
+<h2>¡Gracias por confiar en nosotros!</h2>
+ <BR> <BR>  <BR> <BR>
+Atención al cliente
+
++34 92 392 40 94
+
+<h2>
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+
+</body>
+</html>

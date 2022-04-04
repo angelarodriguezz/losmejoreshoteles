@@ -1,0 +1,81 @@
+.grupo{
+position: relative;
+}
+
+.enlaces {
+width :300px;
+height :70px;
+font-size :30px;
+background :brown;
+color :white;
+text-align: center;
+float: right;
+line-height: 60px;
+}
+
+.foto1{
+position: absolute;
+left: 50px;	
+}
+
+.foto2{
+position: absolute;
+left: 300px;	
+}
+
+.foto3{
+position: absolute;
+left: 550px;	
+}
+
+.foto4{
+position: absolute;
+left: 800px;	
+}
+
+.foto5{
+position: absolute;
+left: 1050px;	
+}
+
+.foto6{
+position: absolute;
+left: 100px;	
+}
+.foto7{
+position: absolute;
+left: 400px;	
+}
+.foto8{
+position: absolute;
+left: 700px;	
+
+}.foto9{
+position: absolute;
+left: 1000px;	
+}
+
+.texto1{
+position: absolute;
+left: 100px;
+float: left;
+}
+
+.texto2{
+position: absolute;
+left: 700px;
+float: left;
+}
+
+.destino1{
+position: absolute;
+left: 50px;	
+float: left;
+}
+
+.destino2{
+position: absolute;
+left: 700px;	
+float: left;
+}
+
